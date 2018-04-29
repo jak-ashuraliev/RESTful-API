@@ -15,6 +15,5 @@ app.get('/api/genres', function(req, res){
    res.send();
 });
 
-
 app.listen(process.env.PORT, process.env.IP);
 console.log('App is and running!');
