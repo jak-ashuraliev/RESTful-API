@@ -22,6 +22,5 @@ app.get('/', function(req, res){
 //    });
 // });
 
-
 app.listen(process.env.PORT, process.env.IP);
 console.log('App is and running!');
